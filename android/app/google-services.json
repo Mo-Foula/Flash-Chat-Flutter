@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "854956867546",
+    "firebase_url": "https://flash-chat-2afd6.firebaseio.com",
+    "project_id": "flash-chat-2afd6",
+    "storage_bucket": "flash-chat-2afd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854956867546:android:c77d8a324ec67dd5320ae3",
+        "android_client_info": {
+          "package_name": "com.MoFoula.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854956867546-m77tea5geogvn7mu7jn55evilh38vgi9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBijSJnByy66yqYylcB4sTpHHf6HDdKOMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854956867546-m77tea5geogvn7mu7jn55evilh38vgi9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
