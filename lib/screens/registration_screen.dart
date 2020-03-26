@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flash_chat/components/RoundedButton.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flash_chat/components/sender.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
 
 bool ShowSpinner = false;
@@ -82,7 +81,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                       if(newuser!=null){
                         FirebaseUser user = await _auth.currentUser();
                         user.sendEmailVerification();
-                        main(email,password);
+                        
 //                    EmailSender(ToBeSentEmail: email , ToBeSentPass: password).trial();
                         //Navigator.pushNamed(context, ChatScreen.id);
                         setState(() {
